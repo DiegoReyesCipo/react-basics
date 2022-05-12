@@ -15,9 +15,10 @@ export default class Estado extends Component {
             contador:0,
         };
         // NO es una buena practica hacer el setInterval dentro del constructor
-        setInterval(()=>{
-            this.setState({contador:this.state.contador +1});
-        },1000);
+        // setInterval(()=>{
+        //     this.setState({
+        //     contador:this.state.contador +1});
+        // },1000);
         
     }
 

@@ -1,9 +1,16 @@
 import './App.css';
 
+import {EventosEs6, EventosEs7, MasSobreEventos} from './components/Eventos';
+
+import AjaxApis from './components/AjaxApis';
+import CicloVida from './components/CicloVida';
 import Componente from './components/Componente';
+import ComunicacionComponentes from './components/ComunicacionComponentes';
 import Estado from './components/Estado';
 import Propiedades from './components/Propiedades';
 import React from "react";
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
 import logo from './logo.svg';
 
 function App() {
@@ -42,6 +49,23 @@ function App() {
 
         <hr/>
         <Estado/>
+        <hr/>
+        <RenderizadoCondicional/>
+        <hr/>
+        <RenderizadoElementos/>
+        <hr/>
+        <EventosEs6/>
+        <hr/>
+        <EventosEs7/>
+        <hr/>
+        <MasSobreEventos/>
+        <hr/>
+        <ComunicacionComponentes/>
+        <hr/>
+        <CicloVida/>
+        <hr/>
+        <AjaxApis/>
+
 
         
         </section>
