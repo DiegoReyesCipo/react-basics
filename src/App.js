@@ -1,16 +1,25 @@
-import './App.css';
+import "./App.css";
 
 import {EventosEs6, EventosEs7, MasSobreEventos} from './components/Eventos';
 
-import AjaxApis from './components/AjaxApis';
+// import AjaxApis from './components/AjaxApis';
+import AjaxHooks from "./components/AjaxHooks";
 import CicloVida from './components/CicloVida';
 import Componente from './components/Componente';
+import ComponentesEstilizados from "./components/ComponetesEstilizados";
 import ComunicacionComponentes from './components/ComunicacionComponentes';
+import ContadorHooks from './components/ContadorHooks';
 import Estado from './components/Estado';
+import Estilos from "./components/Estilos";
+import Formularios from './components/Formularios';
+import HooksPersonalizados from "./components/HooksPersonalizados";
 import Propiedades from './components/Propiedades';
 import React from "react";
+import Referencias from "./components/Referencias";
+import RelojHooks from './components/RelojHooks';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
+import ScrollHooks from './components/ScrollHooks';
 import logo from './logo.svg';
 
 function App() {
@@ -64,9 +73,29 @@ function App() {
         <hr/>
         <CicloVida/>
         <hr/>
-        <AjaxApis/>
+        {/* <AjaxApis/> */}
+        <hr/>
+        <ContadorHooks titulo ="Seguidores"/>
+        <hr/>
+        <Referencias/>
+        <hr/>
+        <ScrollHooks/>
+        <hr/>
+        <RelojHooks/>
+        <hr/>
+        {/* <AjaxHooks/> */}
+        <hr/>
+        <HooksPersonalizados/>
+        <hr/>
+        <Formularios/>
+        <hr/>
+        <Estilos/>
+        <hr/>
+        <ComponentesEstilizados/>
+        
 
-
+      
+        
         
         </section>
       </header>
